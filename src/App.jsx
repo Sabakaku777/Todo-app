@@ -45,7 +45,7 @@ function App() {
   };
 
   return (
-    <body style={{ backgroundColor: "red" }}>
+    <body>
       <BackGroundIMage>
         <img src={day ? light : nighted} />
         <Container>
